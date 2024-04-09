@@ -1,0 +1,64 @@
+h1{
+    text-align: center;
+    text-rendering: geometricPrecision;
+    color:black;
+    font-weight: bold;
+}
+container-fluid{
+    margin:0 8em;
+}
+body{
+    background-color: #78909c;
+    padding: 10px;
+    padding-top: 1em;    
+}
+.card-title{
+    padding: 5px 8px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 50px;
+    border-radius: 4px;
+}
+#red{
+    background-color: #f44336;
+}
+
+#green{
+    background-color: #4caf50;
+}
+
+#yellow{
+    background-color: #fbc02d;
+}
+.btn btn-primary{
+    font-size: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height:10px;
+}
+.btn btn-info{
+    font-size: 10px;
+    background-color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card{
+    background-color: #fff;
+    border-radius: 8px;
+    width:90%;    
+    height:93%;    
+    cursor: pointer;
+    margin: 1.2em 1em;
+    transition: all 0.2s;
+}
+.card:hover{
+    transform: translateY(-3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.23);
+}
+.gadget{
+    float:right;
+}
+.date, .comment{
+    display: inline;    
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
